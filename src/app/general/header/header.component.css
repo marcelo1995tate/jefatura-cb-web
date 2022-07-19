@@ -5,12 +5,12 @@
 }
 
 .rounded-top{
-  border-radius: 15px 15px 0 0 !important;
+  border-radius: 20px !important;
 }
 
 .opcion-menu:hover{
   background: var(--color3);
-  color: var(--color6) !important;
+  color: black !important;
 }
 
 .opcion-menu{
