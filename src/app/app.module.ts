@@ -15,6 +15,7 @@ import { VeinteVeintiDosComponent } from './logos/ciclo/veinte-veinti-dos/veinte
 import { SitioConstruccionComponent } from './general/sitio-construccion/sitio-construccion.component';
 import { BannerInfoGeneralComponent } from './general/banner-info-general/banner-info-general.component';
 import { InfoImportanteComponent } from './general/info-importante/info-importante.component';
+import { MesaExamenComponent } from './mesa-examen/mesa-examen.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { InfoImportanteComponent } from './general/info-importante/info-importan
     VeinteVeintiDosComponent,
     SitioConstruccionComponent,
     BannerInfoGeneralComponent,
-    InfoImportanteComponent
+    InfoImportanteComponent,
+    MesaExamenComponent
   ],
   imports: [
     BrowserModule,

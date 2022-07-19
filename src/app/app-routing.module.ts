@@ -6,6 +6,7 @@ import {PlanosComponent} from "./planos/planos.component";
 import {LogosComponent} from "./logos/logos.component";
 import {ModulosComponent} from "./modulos/modulos.component";
 import {VeinteVeintiDosComponent} from "./logos/ciclo/veinte-veinti-dos/veinte-veinti-dos.component";
+import {MesaExamenComponent} from "./mesa-examen/mesa-examen.component";
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path: 'planificaciones', component: PlanificacionesComponent},
   {path: 'planos', component: PlanosComponent},
   {path: 'modulos', component: ModulosComponent},
+  {path: 'examen', component: MesaExamenComponent},
   {
     path: 'logros', component: LogosComponent,
     children: [

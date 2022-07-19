@@ -1,0 +1,15 @@
+.word {
+  color: #0568A6;
+}
+.fondo-alerta{
+  background-color: #C4D8F2;
+}
+.color-alerta{
+  color: #030BA6 !important;
+}
+.fondo-alerta-w{
+  background-color: #4C3E13;
+}
+.color-alerta-w{
+  color: #FFCF3D !important;
+}
