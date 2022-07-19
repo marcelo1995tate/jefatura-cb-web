@@ -11,6 +11,7 @@ const routes: Routes = [
   {path: 'planificaciones', component: PlanificacionesComponent},
   {path: 'planos', component: PlanosComponent},
   {path: 'logos', component: LogosComponent},
+  {path: 'modulos', component: LogosComponent},
 
 ];
 

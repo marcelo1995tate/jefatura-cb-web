@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+  --color1:#150d4b;
+  --color2:#2A1F70;
+  --color3: #6C63FF;
+  --color4: #ADB0FF;
+  --color5: #E7E8FF;
+  --color6: #E7E8FF;
+
+  --fondo: #E7E8FF;
+  --texto: --color1;
+}
+
+h1{
+  color: var(--color1);
+}
+.texto{
+  color: var(--texto);
+}
