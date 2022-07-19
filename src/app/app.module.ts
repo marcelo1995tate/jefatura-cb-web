@@ -13,6 +13,7 @@ import { ModulosComponent } from './modulos/modulos.component';
 import { CarrouselComponent } from './general/carrousel/carrousel.component';
 import { VeinteVeintiDosComponent } from './logos/ciclo/veinte-veinti-dos/veinte-veinti-dos.component';
 import { SitioConstruccionComponent } from './general/sitio-construccion/sitio-construccion.component';
+import { BannerInfoGeneralComponent } from './general/banner-info-general/banner-info-general.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SitioConstruccionComponent } from './general/sitio-construccion/sitio-c
     ModulosComponent,
     CarrouselComponent,
     VeinteVeintiDosComponent,
-    SitioConstruccionComponent
+    SitioConstruccionComponent,
+    BannerInfoGeneralComponent
   ],
   imports: [
     BrowserModule,
