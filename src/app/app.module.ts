@@ -10,6 +10,7 @@ import { PlanificacionesComponent } from './planificaciones/planificaciones.comp
 import { PlanosComponent } from './planos/planos.component';
 import { LogosComponent } from './logos/logos.component';
 import { ModulosComponent } from './modulos/modulos.component';
+import { CarrouselComponent } from './general/carrousel/carrousel.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ModulosComponent } from './modulos/modulos.component';
     PlanificacionesComponent,
     PlanosComponent,
     LogosComponent,
-    ModulosComponent
+    ModulosComponent,
+    CarrouselComponent
   ],
   imports: [
     BrowserModule,
