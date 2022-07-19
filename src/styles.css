@@ -14,7 +14,7 @@
   --texto: --color1;
 }
 
-h1{
+h1,h2,h3{
   color: var(--texto);
 }
 .texto{
