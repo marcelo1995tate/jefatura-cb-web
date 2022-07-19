@@ -1,17 +1,17 @@
 :root{
-  --color1:#150d4b;
+  --color1: #ffffff;
   --color2:#2A1F70;
   --color3: #6C63FF;
   --color4: #ADB0FF;
   --color5: #E7E8FF;
   --color6: #E7E8FF;
 
-  --fondo: #E7E8FF;
+  --fondo: #cecdcd;
   --texto: --color1;
 }
 
 h1{
-  color: var(--color1);
+  color: var(--texto);
 }
 .texto{
   color: var(--texto);
