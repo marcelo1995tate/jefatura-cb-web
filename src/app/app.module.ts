@@ -12,6 +12,7 @@ import { LogosComponent } from './logos/logos.component';
 import { ModulosComponent } from './modulos/modulos.component';
 import { CarrouselComponent } from './general/carrousel/carrousel.component';
 import { VeinteVeintiDosComponent } from './logos/ciclo/veinte-veinti-dos/veinte-veinti-dos.component';
+import { SitioConstruccionComponent } from './general/sitio-construccion/sitio-construccion.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { VeinteVeintiDosComponent } from './logos/ciclo/veinte-veinti-dos/veinte
     LogosComponent,
     ModulosComponent,
     CarrouselComponent,
-    VeinteVeintiDosComponent
+    VeinteVeintiDosComponent,
+    SitioConstruccionComponent
   ],
   imports: [
     BrowserModule,
