@@ -11,6 +11,7 @@ import { PlanosComponent } from './planos/planos.component';
 import { LogosComponent } from './logos/logos.component';
 import { ModulosComponent } from './modulos/modulos.component';
 import { CarrouselComponent } from './general/carrousel/carrousel.component';
+import { VeinteVeintiDosComponent } from './logos/ciclo/veinte-veinti-dos/veinte-veinti-dos.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CarrouselComponent } from './general/carrousel/carrousel.component';
     PlanosComponent,
     LogosComponent,
     ModulosComponent,
-    CarrouselComponent
+    CarrouselComponent,
+    VeinteVeintiDosComponent
   ],
   imports: [
     BrowserModule,

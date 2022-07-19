@@ -35,3 +35,6 @@
 .bg{
   background-color: var(--fondo);
 }
+.pad{
+  padding: 0 !important;
+}

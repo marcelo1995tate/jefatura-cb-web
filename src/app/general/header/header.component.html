@@ -15,7 +15,15 @@
           <a [routerLink]="['/','planificaciones']" class="nav-item nav-link active rounded-top opcion-menu texto mx-1">Planificaciones</a>
           <a [routerLink]="['/','modulos']" class="nav-item nav-link active rounded-top opcion-menu texto mx-1">Módulos</a>
           <a [routerLink]="['/','planos']" class="nav-item nav-link active rounded-top opcion-menu texto mx-1">Planos</a>
-          <a [routerLink]="['/','logos']" class="nav-item nav-link active rounded-top opcion-menu texto mx-1">Logros</a>
+          <li class="nav-item dropdown opcion-menu texto rounded-top">
+            <a class="pad nav-link dropdown-toggle  opcion-menu texto mx-1" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Logros
+            </a>
+            <ul class="dropdown-menu bg" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item rounded-top opcion-menu texto mx-1" [routerLink]="['/','logros','2022']">2022</a></li>
+
+            </ul>
+          </li>
         </div>
       </div>
     </div>
