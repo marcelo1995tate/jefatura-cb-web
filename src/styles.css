@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 :root{
   --color1: #ffffff;
   --color2:#2A1F70;
