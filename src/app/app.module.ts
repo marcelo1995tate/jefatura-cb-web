@@ -14,6 +14,7 @@ import { CarrouselComponent } from './general/carrousel/carrousel.component';
 import { VeinteVeintiDosComponent } from './logos/ciclo/veinte-veinti-dos/veinte-veinti-dos.component';
 import { SitioConstruccionComponent } from './general/sitio-construccion/sitio-construccion.component';
 import { BannerInfoGeneralComponent } from './general/banner-info-general/banner-info-general.component';
+import { InfoImportanteComponent } from './general/info-importante/info-importante.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { BannerInfoGeneralComponent } from './general/banner-info-general/banner
     CarrouselComponent,
     VeinteVeintiDosComponent,
     SitioConstruccionComponent,
-    BannerInfoGeneralComponent
+    BannerInfoGeneralComponent,
+    InfoImportanteComponent
   ],
   imports: [
     BrowserModule,
