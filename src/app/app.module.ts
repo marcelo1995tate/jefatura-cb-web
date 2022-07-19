@@ -16,6 +16,7 @@ import { SitioConstruccionComponent } from './general/sitio-construccion/sitio-c
 import { BannerInfoGeneralComponent } from './general/banner-info-general/banner-info-general.component';
 import { InfoImportanteComponent } from './general/info-importante/info-importante.component';
 import { MesaExamenComponent } from './mesa-examen/mesa-examen.component';
+import { AgradecimientosComponent } from './general/agradecimientos/agradecimientos.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { MesaExamenComponent } from './mesa-examen/mesa-examen.component';
     SitioConstruccionComponent,
     BannerInfoGeneralComponent,
     InfoImportanteComponent,
-    MesaExamenComponent
+    MesaExamenComponent,
+    AgradecimientosComponent
   ],
   imports: [
     BrowserModule,
