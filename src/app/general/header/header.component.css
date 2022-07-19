@@ -16,6 +16,7 @@
 .opcion-menu{
   padding-bottom: 14px !important;
   padding-top: 14px !important;
+  color: var(--color6) !important;
 }
 
 .logo{
@@ -33,16 +34,4 @@
 
 .bg{
   background-color: var(--fondo);
-}
-.texto{
-  color: var(--texto);
-}
-.campana{
-  color: var(--color1);
-}
-.notification{
-  padding: 10px;
-  border-radius: 50% !important;
-  background-color: var(--color1);
-  color: white;
 }
