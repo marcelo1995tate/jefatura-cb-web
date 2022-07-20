@@ -17,6 +17,7 @@ import { BannerInfoGeneralComponent } from './general/banner-info-general/banner
 import { InfoImportanteComponent } from './general/info-importante/info-importante.component';
 import { MesaExamenComponent } from './mesa-examen/mesa-examen.component';
 import { AgradecimientosComponent } from './general/agradecimientos/agradecimientos.component';
+import { NotFoundComponent } from './general/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { AgradecimientosComponent } from './general/agradecimientos/agradecimien
     BannerInfoGeneralComponent,
     InfoImportanteComponent,
     MesaExamenComponent,
-    AgradecimientosComponent
+    AgradecimientosComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
