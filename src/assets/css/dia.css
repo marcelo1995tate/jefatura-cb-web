@@ -1,0 +1,32 @@
+:root{
+  --color1: 43474A;
+  --color2:#2A1F70;
+  --color3: #49DCC8;
+  --color4: #ADB0FF;
+  --color5: #E7E8FF;
+  --color6: #E7E8FF;
+
+  --fondo: #e1e1e1;
+}
+
+h2,h3{
+  color: var(--color1);
+}
+ul{
+  color: var(--color1);
+}
+i{
+  color: var(--color1);
+}
+p {
+  color: var(--color1);
+}
+body{
+  background-color: var(--color6);
+}
+.texto{
+  color: var(--color1);
+}
+.fondo{
+  background-color: var(--fondo);
+}

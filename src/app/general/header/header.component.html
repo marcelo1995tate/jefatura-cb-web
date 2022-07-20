@@ -28,7 +28,17 @@
         </div>
       </div>
     </div>
+    <div class="d-flex align-items-center ">
+      <div>
+        <i *ngIf="!dia"  (click)="cargarTemaDia()" class="p-3  fa-solid fa-sun fa-2x texto"></i>
+      </div>
+      <div>
+        <i *ngIf="dia"  (click)="cargarTemaOscuro()" class="p-3  fa-solid fa-moon fa-2x texto"></i>
+      </div>
+    </div>
+
   </nav>
 </header>
+
 
 
