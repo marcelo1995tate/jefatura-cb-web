@@ -6,17 +6,19 @@
         <img src="../../../assets/img/icono-t5.webp" height="48" class="align-text-center m-1" alt="">
         <p class="m-1">EEST N°5 - Ciclo Básico</p>
       </a>
-      <div class="d-flex align-items-center ">
+      <div class="d-flex align-items-center logo">
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class=""><i class="fa-solid fa-bars fa-2x texto "></i></span>
+        </button>
         <div>
           <i *ngIf="!dia" (click)="cargarTemaDia()" class="p-3  fa-solid fa-sun fa-2x texto"></i>
         </div>
         <div>
           <i *ngIf="dia" (click)="cargarTemaOscuro()" class="p-3  fa-solid fa-moon fa-2x texto"></i>
         </div>
+
       </div>
-      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-        <span class=""><i class="fa-solid fa-bars fa-2x texto "></i></span>
-      </button>
+
       <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
         <div class="navbar-nav texto text-center">
           <a [routerLink]="['/','home']" class="nav-item nav-link active rounded-top opcion-menu texto mx-1">Home</a>
