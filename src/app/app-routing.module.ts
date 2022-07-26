@@ -8,6 +8,9 @@ import {ModulosComponent} from "./modulos/modulos.component";
 import {VeinteVeintiDosComponent} from "./logos/ciclo/veinte-veinti-dos/veinte-veinti-dos.component";
 import {MesaExamenComponent} from "./mesa-examen/mesa-examen.component";
 import {NotFoundComponent} from "./general/not-found/not-found.component";
+import {LoginComponent} from "./general/login/login.component";
+import {LogueadoGuard} from "./service/guard/logueado.guard";
+import {NoLogueadoGuard} from "./service/guard/no-logueado.guard";
 
 const routes: Routes = [
 
@@ -15,7 +18,7 @@ const routes: Routes = [
 
   {path: 'home', component: HomeComponent},
 
-  {path: 'planificaciones', component: PlanificacionesComponent},
+  {path: 'planificaciones', component: PlanificacionesComponent,canActivate:[LogueadoGuard]},
 
   {path: 'planos', component: PlanosComponent},
 
@@ -29,6 +32,7 @@ const routes: Routes = [
       {path: '2022', component: VeinteVeintiDosComponent}
     ]
   },
+  {path: 'login', component: LoginComponent  ,canActivate:[NoLogueadoGuard]},
 
   {path: 'pagina404', component: NotFoundComponent  },
 

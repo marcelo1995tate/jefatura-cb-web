@@ -1,0 +1,12 @@
+.redondear{
+  border-radius: 50px;
+}
+.fondo-alerta{
+  background-color: #521E23;
+}
+.color-alerta{
+  color: #ED8C94 !important;
+}
+.tamano-card{
+  width: 20%;
+}

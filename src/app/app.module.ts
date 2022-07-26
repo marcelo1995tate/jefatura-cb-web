@@ -18,6 +18,8 @@ import { InfoImportanteComponent } from './general/info-importante/info-importan
 import { MesaExamenComponent } from './mesa-examen/mesa-examen.component';
 import { AgradecimientosComponent } from './general/agradecimientos/agradecimientos.component';
 import { NotFoundComponent } from './general/not-found/not-found.component';
+import { LoginComponent } from './general/login/login.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -36,12 +38,14 @@ import { NotFoundComponent } from './general/not-found/not-found.component';
     InfoImportanteComponent,
     MesaExamenComponent,
     AgradecimientosComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    LoginComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        FormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
