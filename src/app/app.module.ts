@@ -19,7 +19,7 @@ import { MesaExamenComponent } from './mesa-examen/mesa-examen.component';
 import { AgradecimientosComponent } from './general/agradecimientos/agradecimientos.component';
 import { NotFoundComponent } from './general/not-found/not-found.component';
 import { LoginComponent } from './general/login/login.component';
-import {FormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -41,11 +41,12 @@ import {FormsModule} from "@angular/forms";
     NotFoundComponent,
     LoginComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        FormsModule
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

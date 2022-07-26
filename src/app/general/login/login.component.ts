@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {environment} from "../../../environments/environment";
 import {Router} from "@angular/router";
+import {FormBuilder} from "@angular/forms";
 
 @Component({
   selector: 'app-login',
@@ -8,16 +9,16 @@ import {Router} from "@angular/router";
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  public password: string="";
   public error: string="";
-
-  constructor(private router: Router) { }
+  public forms;
+  constructor(private router: Router,private formBuilder: FormBuilder) {
+    this.forms = this.formBuilder.group({pass: ''});
+  }
 
   ngOnInit(): void {
   }
 public loguear(){
-
-    if (this.password==environment.PASSWORD_PLANIFICAIONES){
+    if (this.forms.value.pass==environment.PASSWORD_PLANIFICAIONES){
       localStorage.setItem('planificacion', 'ok');
       this.router.navigate(['/planificaciones']);
     }
