@@ -16,6 +16,7 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 public loguear(){
+
     if (this.password==environment.PASSWORD_PLANIFICAIONES){
       localStorage.setItem('planificacion', 'ok');
       this.router.navigate(['/planificaciones']);
