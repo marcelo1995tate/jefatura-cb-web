@@ -22,7 +22,7 @@ public loguear(){
       this.router.navigate(['/planificaciones']);
     }
     else{
-      this.error='Password incorrecto'
+      this.error='PASSWORD INCORRECTO'
     }
 }
 }
