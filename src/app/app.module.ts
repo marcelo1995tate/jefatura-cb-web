@@ -10,7 +10,7 @@ import { PlanificacionesComponent } from './planificaciones/planificaciones.comp
 import { PlanosComponent } from './planos/planos.component';
 import { LogosComponent } from './logos/logos.component';
 import { ModulosComponent } from './modulos/modulos.component';
-import { CarrouselComponent } from './general/carrousel/carrousel.component';
+import { CarrouselComponent } from './home/carrousel/carrousel.component';
 import { VeinteVeintiDosComponent } from './logos/ciclo/veinte-veinti-dos/veinte-veinti-dos.component';
 import { SitioConstruccionComponent } from './general/sitio-construccion/sitio-construccion.component';
 import { BannerInfoGeneralComponent } from './general/banner-info-general/banner-info-general.component';
@@ -20,6 +20,7 @@ import { AgradecimientosComponent } from './general/agradecimientos/agradecimien
 import { NotFoundComponent } from './general/not-found/not-found.component';
 import { LoginComponent } from './general/login/login.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { MejorasCarrouselComponent } from './logos/ciclo/veinte-veinti-dos/mejoras-carrousel/mejoras-carrousel.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
     PlanificacionesComponent,
     PlanosComponent,
     LogosComponent,
+    AgradecimientosComponent,
     ModulosComponent,
     CarrouselComponent,
     VeinteVeintiDosComponent,
@@ -39,7 +41,8 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
     MesaExamenComponent,
     AgradecimientosComponent,
     NotFoundComponent,
-    LoginComponent
+    LoginComponent,
+    MejorasCarrouselComponent
   ],
   imports: [
     BrowserModule,

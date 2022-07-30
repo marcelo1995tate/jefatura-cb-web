@@ -1,0 +1,12 @@
+.tamano{
+  width: 50%;
+  height: 10%;
+}
+.redondear{
+  border-radius: 50px;
+}
+h5,p{
+  color: darkorange !important;
+  font-size: xxx-large;
+  font-weight: bold;
+}
