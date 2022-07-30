@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Title} from "@angular/platform-browser";
+import {environment} from "../../environments/environment.prod";
 
 @Component({
   selector: 'app-planificaciones',
@@ -7,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlanificacionesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private title:Title) {
+    this.title.setTitle(environment.TITLE + "Planificaciones")
+  }
 
   ngOnInit(): void {
   }
