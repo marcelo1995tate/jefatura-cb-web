@@ -11,6 +11,7 @@ import {NotFoundComponent} from "./general/not-found/not-found.component";
 import {LoginComponent} from "./general/login/login.component";
 import {LogueadoGuard} from "./service/guard/logueado.guard";
 import {NoLogueadoGuard} from "./service/guard/no-logueado.guard";
+import {ContinuidadPedagogicaComponent} from "./continuidad-pedagogica/continuidad-pedagogica.component";
 
 const routes: Routes = [
 
@@ -25,6 +26,8 @@ const routes: Routes = [
   {path: 'modulos', component: ModulosComponent},
 
   {path: 'examen', component: MesaExamenComponent},
+
+  {path: 'continuidad-pedagogica', component: ContinuidadPedagogicaComponent},
 
   {
     path: 'logros', component: LogosComponent,

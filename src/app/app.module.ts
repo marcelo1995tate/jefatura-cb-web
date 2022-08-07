@@ -21,6 +21,7 @@ import { NotFoundComponent } from './general/not-found/not-found.component';
 import { LoginComponent } from './general/login/login.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { MejorasCarrouselComponent } from './logos/ciclo/veinte-veinti-dos/mejoras-carrousel/mejoras-carrousel.component';
+import { ContinuidadPedagogicaComponent } from './continuidad-pedagogica/continuidad-pedagogica.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { MejorasCarrouselComponent } from './logos/ciclo/veinte-veinti-dos/mejor
     AgradecimientosComponent,
     NotFoundComponent,
     LoginComponent,
-    MejorasCarrouselComponent
+    MejorasCarrouselComponent,
+    ContinuidadPedagogicaComponent
   ],
   imports: [
     BrowserModule,
