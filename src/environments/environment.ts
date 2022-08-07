@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   PASSWORD_PLANIFICAIONES:"docentest5",
-  TITLE:"EEST N°5 | CBT | "
+  TITLE:"EEST N°5 | TCB | "
 };
 
 /*
