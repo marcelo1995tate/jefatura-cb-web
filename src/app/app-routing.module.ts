@@ -12,6 +12,7 @@ import {LoginComponent} from "./general/login/login.component";
 import {LogueadoGuard} from "./service/guard/logueado.guard";
 import {NoLogueadoGuard} from "./service/guard/no-logueado.guard";
 import {ContinuidadPedagogicaComponent} from "./continuidad-pedagogica/continuidad-pedagogica.component";
+import {MaterialDeApoyoComponent} from "./material-de-apoyo/material-de-apoyo.component";
 
 const routes: Routes = [
 
@@ -28,6 +29,8 @@ const routes: Routes = [
   {path: 'examen', component: MesaExamenComponent},
 
   {path: 'continuidad-pedagogica', component: ContinuidadPedagogicaComponent},
+
+  {path: 'material-apoyo', component: MaterialDeApoyoComponent},
 
   {
     path: 'logros', component: LogosComponent,
