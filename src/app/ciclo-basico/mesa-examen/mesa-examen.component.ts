@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Title} from "@angular/platform-browser";
-import {environment} from "../../environments/environment.prod";
+import {environment} from "../../../environments/environment.prod";
 
 @Component({
   selector: 'app-mesa-examen',

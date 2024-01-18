@@ -4,7 +4,7 @@
 
       <a class="navbar-brand logo d-flex align-items-center" [routerLink]="['/','home']">
         <img src="../../../assets/img/icono-t5.jpg" height="48" class="align-text-center m-1" alt="">
-        <p class="m-1">EEST N°5 - Ciclo Básico Taller</p>
+        <p class="m-1">EEST N°5</p>
       </a>
       <div class="d-flex align-items-center logo">
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -22,17 +22,62 @@
       <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
         <div class="navbar-nav texto text-center">
           <a [routerLink]="['/','home']" class="nav-item nav-link active rounded-top opcion-menu texto mx-1">Home</a>
-          <a [routerLink]="['/','modulos']"
-             class="nav-item nav-link active rounded-top opcion-menu texto mx-1">Módulos</a>
-          <a [routerLink]="['/','planos']"
-             class="nav-item nav-link active rounded-top opcion-menu texto mx-1">Planos</a>
-          <a [routerLink]="['/','continuidad-pedagogica']" class="nav-item nav-link active rounded-top opcion-menu texto mx-1">Continuidad pedagógica</a>
-          <a [routerLink]="['/','examen']" class="nav-item nav-link active rounded-top opcion-menu texto mx-1">Mesa de
-            examen</a>
+          <li class="nav-item dropdown opcion-menu texto rounded-top">
+            <a class="pad nav-link dropdown-toggle  opcion-menu texto mx-1" href="#" id="navbarDropdown1" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Taller Ciclo Básico
+            </a>
+            <ul class="dropdown-menu bg" aria-labelledby="navbarDropdown1">
+              <li><a class="dropdown-item rounded-top opcion-menu texto mx-1"
+                  [routerLink]="['/','basico','presentacion']">Presentación</a>
+              </li>
+              <li><a class="dropdown-item rounded-top opcion-menu texto mx-1"
+                  [routerLink]="['/','basico','modulos']">Módulos</a>
+              </li>
+              <li><a class="dropdown-item rounded-top opcion-menu texto mx-1"
+                  [routerLink]="['/','basico','planos']">Planos</a>
+              </li>
+              <li><a class="dropdown-item rounded-top opcion-menu texto mx-1"
+                  [routerLink]="['/','basico','continuidad-pedagogica']">Continuidad pedagógica</a>
+              </li>
+              <li><a class="dropdown-item rounded-top opcion-menu texto mx-1"
+                  [routerLink]="['/','basico','examen']">Mesa de
+                  examen</a>
+              </li>
+              <li><a class="dropdown-item rounded-top opcion-menu texto mx-1"
+                  [routerLink]="['/','basico','planificaciones']">Planificaciones</a>
+              </li>
+            </ul>
+          </li>
 
-          <a [routerLink]="['/','material-apoyo']" class="nav-item nav-link active rounded-top opcion-menu texto mx-1">Material de apoyo</a>
+          <li class="nav-item dropdown opcion-menu texto rounded-top">
+            <a class="pad nav-link dropdown-toggle  opcion-menu texto mx-1" href="#" id="navbarDropdown1" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Electromecánica
+            </a>
+            <ul class="dropdown-menu bg" aria-labelledby="navbarDropdown1">
+              <li><a class="dropdown-item rounded-top opcion-menu texto mx-1"
+                  [routerLink]="['/','electro','presentacion']">Presentación</a>
+              </li>
+              <li><a class="dropdown-item rounded-top opcion-menu texto mx-1"
+                  [routerLink]="['/','electro','modulos']">Módulos</a>
+              </li>
+              <li><a class="dropdown-item rounded-top opcion-menu texto mx-1"
+                  [routerLink]="['/','electro','planos']">Planos</a>
+              </li>
+              <li><a class="dropdown-item rounded-top opcion-menu texto mx-1"
+                  [routerLink]="['/','electro','continuidad-pedagogica']">Continuidad pedagógica</a>
+              </li>
+              <li><a class="dropdown-item rounded-top opcion-menu texto mx-1"
+                  [routerLink]="['/','electro','examen']">Mesa de examen</a>
+              </li>
+            </ul>
+          </li>
 
-          <a [routerLink]="['/','planificaciones']" class="nav-item nav-link active rounded-top opcion-menu texto mx-1">Planificaciones</a>
+
+
+          <a [routerLink]="['/','material-apoyo']"
+            class="nav-item nav-link active rounded-top opcion-menu texto mx-1">Material de apoyo</a>
 
 
 
@@ -40,12 +85,12 @@
 
           <li class="nav-item dropdown opcion-menu texto rounded-top">
             <a class="pad nav-link dropdown-toggle  opcion-menu texto mx-1" href="#" id="navbarDropdown" role="button"
-               data-bs-toggle="dropdown" aria-expanded="false">
+              data-bs-toggle="dropdown" aria-expanded="false">
               Logros
             </a>
             <ul class="dropdown-menu bg" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item rounded-top opcion-menu texto mx-1"
-                     [routerLink]="['/','logros','2022']">2022</a></li>
+                  [routerLink]="['/','logros','2022']">2022</a></li>
 
             </ul>
           </li>
@@ -56,6 +101,3 @@
 
   </nav>
 </header>
-
-
-
