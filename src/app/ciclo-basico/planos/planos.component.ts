@@ -10,7 +10,7 @@ import {environment} from "../../../environments/environment.prod";
 export class PlanosComponent implements OnInit {
 
   constructor(private title:Title) {
-    this.title.setTitle(environment.TITLE + "Planos")
+    this.title.setTitle(environment.TITLE + "TCB | Planos")
   }
 
   ngOnInit(): void {

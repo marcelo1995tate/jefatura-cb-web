@@ -10,7 +10,7 @@ import {environment} from "../../../environments/environment.prod";
 export class ModulosComponent implements OnInit {
 
   constructor(private title:Title) {
-    this.title.setTitle(environment.TITLE + "Módulos")
+    this.title.setTitle(environment.TITLE + "TCB | Módulos")
   }
 
   ngOnInit(): void {
