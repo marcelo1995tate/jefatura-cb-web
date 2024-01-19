@@ -9,8 +9,8 @@ import {environment} from "../../../environments/environment.prod";
 })
 export class ContinuidadPedagogicaComponent implements OnInit {
 
-  constructor(private title: Title) {
-    this.title.setTitle(environment.TITLE + "Continuidad Pedagógica")
+  constructor(private title:Title) {
+    this.title.setTitle(environment.TITLE + "TCB | Continuidad Pedagógica")
   }
 
   ngOnInit(): void {

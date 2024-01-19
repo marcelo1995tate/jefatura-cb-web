@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+import { environment } from 'src/environments/environment.prod';
 
 @Component({
   selector: 'app-modulos-electro',
@@ -7,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModulosElectroComponent implements OnInit {
 
-  constructor() { }
+  constructor(private title:Title) {
+    this.title.setTitle(environment.TITLE + "Electro | Módulos")
+  }
 
   ngOnInit(): void {
   }
