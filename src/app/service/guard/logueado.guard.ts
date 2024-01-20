@@ -18,7 +18,7 @@ export class LogueadoGuard implements CanActivate {
       return true;
     }
     else {
-      this.router.navigate(['/login']);
+      this.router.navigate(['basico','login']);
         return false;
     }
   }

@@ -10,7 +10,7 @@ import {environment} from "../../../environments/environment.prod";
 export class MesaExamenComponent implements OnInit {
 
   constructor(private title:Title) {
-    this.title.setTitle(environment.TITLE + "Mesa de examen")
+    this.title.setTitle(environment.TITLE + "TCB | Mesa de examen")
   }
 
   ngOnInit(): void {
