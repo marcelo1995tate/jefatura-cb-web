@@ -20,7 +20,7 @@ export class LoginComponent implements OnInit {
 public loguear(){
     if ( this.forms.value.pass.toUpperCase()==environment.PASSWORD_PLANIFICAIONES.toUpperCase()){
       localStorage.setItem('planificacion', 'ok');
-      this.router.navigate(['/planificaciones']);
+      this.router.navigate(['/basico/planificaciones']);
     }
     else{
       this.error='PASSWORD INCORRECTO'

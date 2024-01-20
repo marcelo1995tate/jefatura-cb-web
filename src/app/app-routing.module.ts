@@ -36,6 +36,8 @@ const routes: Routes = [
 
       { path: 'planificaciones', component: PlanificacionesComponent, canActivate: [LogueadoGuard] },
 
+      { path: 'login', component: LoginComponent, canActivate: [NoLogueadoGuard] },
+
       { path: 'planos', component: PlanosComponent },
 
       { path: 'modulos', component: ModulosComponent },
@@ -45,7 +47,7 @@ const routes: Routes = [
       { path: 'continuidad-pedagogica', component: ContinuidadPedagogicaComponent },
     ]
   },
-  
+
   {
     path: 'electro', component: HomeElectroComponent,
     children: [
@@ -69,7 +71,6 @@ const routes: Routes = [
       { path: '2022', component: VeinteVeintiDosComponent }
     ]
   },
-  { path: 'basico/login', component: LoginComponent, canActivate: [NoLogueadoGuard] },
 
   { path: 'pagina404', component: NotFoundComponent },
 

@@ -17,7 +17,7 @@ export class NoLogueadoGuard implements CanActivate {
       return true;
     }
     else {
-      this.router.navigate(['/planificaciones']);
+      this.router.navigate(['basico','planificaciones']);
       return false;
     }
   }
