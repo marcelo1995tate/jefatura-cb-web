@@ -21,6 +21,10 @@ import { ContinuidadPedagogicaElectroComponent } from './electromecanica/continu
 import { PlanosElectroComponent } from './electromecanica/planos-electro/planos-electro.component';
 import { ModulosElectroComponent } from './electromecanica/modulos-electro/modulos-electro.component';
 import { ExamenElectroComponent } from './electromecanica/examen-electro/examen-electro.component';
+import { PlanificacionesElectroComponent } from './electromecanica/planificaciones-electro/planificaciones-electro.component';
+import { LogueadoElectroGuard } from './service/guard/logueado-electro.guard';
+import { LoginElectroComponent } from './electromecanica/login-electro/login-electro.component';
+import { NoLogueadoElectroGuard } from './service/guard/no-logueado-electro.guard';
 
 const routes: Routes = [
 
@@ -60,6 +64,11 @@ const routes: Routes = [
       { path: 'examen', component: ExamenElectroComponent },
 
       { path: 'continuidad-pedagogica', component: ContinuidadPedagogicaElectroComponent },
+
+      { path: 'planificaciones', component: PlanificacionesElectroComponent , canActivate: [LogueadoElectroGuard]},
+
+      { path: 'login', component: LoginElectroComponent, canActivate: [NoLogueadoElectroGuard] },
+
     ]
   },
 

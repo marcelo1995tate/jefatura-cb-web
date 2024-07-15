@@ -7,3 +7,6 @@
 .redondear{
   border-radius: 50px;
 }
+.color-alerta{
+  color: #FFCF3D !important;
+}
