@@ -31,6 +31,8 @@ import { ContinuidadPedagogicaElectroComponent } from './electromecanica/continu
 import { PlanosElectroComponent } from './electromecanica/planos-electro/planos-electro.component';
 import { ModulosElectroComponent } from './electromecanica/modulos-electro/modulos-electro.component';
 import { ExamenElectroComponent } from './electromecanica/examen-electro/examen-electro.component';
+import { PlanificacionesElectroComponent } from './electromecanica/planificaciones-electro/planificaciones-electro.component';
+import { LoginElectroComponent } from './electromecanica/login-electro/login-electro.component';
 
 @NgModule({
   declarations: [
@@ -63,6 +65,8 @@ import { ExamenElectroComponent } from './electromecanica/examen-electro/examen-
     PlanosElectroComponent,
     ModulosElectroComponent,
     ExamenElectroComponent,
+    PlanificacionesElectroComponent,
+    LoginElectroComponent,
   ],
   imports: [
     BrowserModule,
